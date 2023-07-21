@@ -3,3 +3,103 @@
     margin: 0;
     box-sizing:border-box;
 }
+
+
+body{
+    background:black;
+    color:black;
+}
+
+
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 14%;
+    transition: all .50s ease;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: teal;
+    font-size: 33px;
+    font-family: 'Lumanosimo';
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.logo i{
+    vertical-align: middle;
+    margin-right: 8px;
+    color:teal;
+}
+
+
+.navlist{
+    display:flex;
+}
+
+
+.navlist a{
+    color: teal;
+    font-size: 18px;
+    font-family: 'Righteous';
+    font-weight: 600;
+    margin:20px;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+.navlist a:hover{
+    color:seagreen;
+    transform: translateY(1.5s);
+    transition: 0.5s;
+}
+
+
+.navlist a.active{
+    color:chocolate;
+}
+
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    background: teal;
+    border-radius: 3rem;
+    box-shadow: turquoise 0px 1px 25px;
+}
+
+
+.nav-icons i{
+    vertical-align: middle;
+    font-size: 15px;
+    color: blue;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all .50s ease;
+}
+
+
+#menu{
+    font-size: 15px;
+    color: blue;
+    z-index: 10001;
+    cursor: pointer;
+}
