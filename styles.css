@@ -119,10 +119,11 @@ section{
 
 .home-text h1{
     color: chocolate;
-    font-family: 'Quicksand';
+    font-family: 'Righteous';
     padding: 50px;
-    line-height: 1.3;
     margin-bottom: 3rem;
+    font-size:xx-large;
+    font-weight: bolder;
 }
 
 
@@ -141,9 +142,22 @@ img{
     height: 400px;
     width: 400px;
     padding: 50px;
-    margin: 25px;
+    margin-left: 10px;
     border-radius: 80px;
     box-shadow: chocolate;
 }
 
 
+.home-text a{
+    font-family: 'Sofia';
+    color:teal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.home-text a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
